@@ -88,16 +88,12 @@ const App=()=>{
 return (
   
   <>
-  <div>
 
     {array.map((items)=>{
       return (<h1 className="m-10">UserId:{items.userId},<br />  Id:{items.id}, <br />Title:{items.title}, <br />Completed:{items.completed} <hr /></h1>)  
     })
 
     }
-
-   
-  </div>
 
 
 
